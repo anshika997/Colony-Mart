@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f82d2de1;
+    padding: 20px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.cart a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #f6f622;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.shop-btn {
+    background-color: #fff;
+    color: #ffcc00;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.special-offers {
+    padding: 50px;
+    background: linear-gradient(to bottom right, #87cefa, #b0e0e6); /* Sky blue gradient */
+    color: #333; /* Dark text for contrast */
+    text-align: center;
+}
+
+.special-offers h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.timer {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #ff4500; /* Orange color for visibility */
+}
+
+.offer-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Make it responsive */
+}
+
+.offer {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    margin: 10px; /* Added margin for spacing */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effects */
+}
+
+.offer:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.offer img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.offer h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Make it responsive */
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px; /* Added margin for spacing */
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.product h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666;
+}
+
+.product button {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+} 
